@@ -24,7 +24,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v3
         with:
-          images: dsci522-dockerfile-practice
+          images: zywkloo/dsci522-dockerfile-practice
 
       - name: Build and push Docker image
         uses: docker/build-push-action@v2
